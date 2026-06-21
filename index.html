@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CJR Web Studio - Award-winning web development agency. We build premium websites that grow businesses with modern design, SEO optimization, and digital strategy.">
+    <meta name="keywords" content="web development, web design, SEO, e-commerce, landing page, portfolio, business website, CJR Web Studio">
+    <meta name="author" content="CJR Web Studio">
+    <meta property="og:title" content="CJR Web Studio - We Build Websites That Grow Businesses">
+    <meta property="og:description" content="Premium web development agency specializing in custom websites, e-commerce, and digital growth strategies.">
+    <meta property="og:image" content="https://cjrwebstudio.com/og-image.jpg">
+    <meta property="og:url" content="https://cjrwebstudio.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CJR Web Studio - We Build Websites That Grow Businesses">
+    <meta name="twitter:description" content="Premium web development agency specializing in custom websites, e-commerce, and digital growth strategies.">
+    <title>CJR Web Studio | Award-Winning Web Development Agency</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+    <div class="container header-inner">
+        <a href="#hero" class="logo" aria-label="CJR Web Studio Home">
+            <div class="logo-icon">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="2" width="36" height="36" rx="10" stroke="url(#logoGrad)" stroke-width="3"/>
+                    <text x="20" y="27" text-anchor="middle" fill="url(#logoGrad)" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="18">C</text>
+                    <defs><linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#a855f7"/></linearGradient></defs>
+                </svg>
+            </div>
+            <span class="logo-text">CJR<span class="logo-accent">.</span></span>
+        </a>
+        <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <a href="#contact" class="btn btn-glow btn-sm header-cta"><span>Get Started</span></a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</header>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobile-nav">
+    <div class="mobile-nav-inner">
+        <ul class="mobile-nav-list">
+            <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+            <li><a href="#founders" class="mobile-nav-link">Our Team</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#services" class="mobile-nav-link">Services</a></li>
+            <li><a href="#why-us" class="mobile-nav-link">Why CJR</a></li>
+            <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+            <li><a href="#growth" class="mobile-nav-link">Growth</a></li>
+            <li><a href="#testimonials" class="mobile-nav-link">Testimonials</a></li>
+            <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-footer"><a href="#contact" class="btn btn-glow btn-lg">Start Your Project</a></div>
+    </div>
+</div>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="floating-shapes" id="floating-shapes">
+        <div class="shape shape-1"></div><div class="shape shape-2"></div>
+        <div class="shape shape-3"></div><div class="shape shape-4"></div>
+        <div class="shape shape-5"></div><div class="shape shape-6"></div>
+    </div>
+    <div class="container hero-content">
+        <div class="hero-badge" data-reveal><span class="badge-dot"></span>Award-Winning Agency</div>
+        <h1 class="hero-title" data-reveal>CJR<br><span class="hero-title-accent">Web Studio</span></h1>
+        <p class="hero-subtitle" data-reveal>We Build Websites That Grow Businesses.</p>
+        <div class="hero-actions" data-reveal>
+            <a href="#contact" class="btn btn-glow btn-lg"><span>Start Your Project</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4.1665 10H15.8332M15.8332 10L10.8332 5M15.8332 10L10.8332 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a href="#portfolio" class="btn btn-outline btn-lg"><span>View Our Work</span></a>
+        </div>
+        <div class="hero-stats" data-reveal>
+            <div class="hero-stat"><span class="hero-stat-number" data-count="150">53</span><span class="hero-stat-label">Projects Delivered</span></div>
+            <div class="hero-stat"><span class="hero-stat-number" data-count="98">53</span><span class="hero-stat-label">Client Satisfaction</span></div>
+            <div class="hero-stat"><span class="hero-stat-number" data-count="5">3+</span><span class="hero-stat-label">Years Experience</span></div>
+        </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true"><div class="scroll-text">Scroll</div><div class="scroll-line"></div></div>
+</section>
+
+<!-- FOUNDERS -->
+<section id="founders" class="section founders-section">
+    <div class="container">
+        <div class="section-header" data-reveal>
+            <span class="section-tag">Our Team</span>
+            <h2 class="section-title">Meet the Founders</h2>
+            <p class="section-desc">The visionaries behind CJR Web Studio, dedicated to transforming your digital presence.</p>
+        </div>
+        <div class="founders-grid" data-reveal>
+            <div class="founder-card" data-founder="1">
+                <div class="founder-card-inner">
+                    <div class="founder-image-wrapper">
+                        <div class="founder-image-placeholder"><img src="images/founder1.jpg" alt="Jacob Reynolds portrait" class="founder-img"/></div>
+                        <div class="founder-social">
+                            <img src="" alt="">
+                            <a href="#" aria-label="Twitter" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="founder-info">
+                        <h3 class="founder-name">Jaxon(Htoo Htet Kyaw)</h3>
+                        <span class="founder-role">Founder & CEO</span>
+                        <p class="founder-bio">I am the leader , a skillful and professional full stack developer. And a Freelancer and also a teacher who have grow over 30+ skillfull students who are now working in big tech industry.Also a Founder of CJR Agency  </p>
+                    </div>
+                </div>
+            </div>
+            <div class="founder-card" data-founder="2">
+                <div class="founder-card-inner">
+                    <div class="founder-image-wrapper">
+                        <div class="founder-image-placeholder"><img src="images/founder2.jpg" alt="Marcus Chen portrait" class="founder-img"/></div>
+                        <div class="founder-social">
+                            <a href="#" aria-label="LinkedIn" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                            <a href="#" aria-label="GitHub" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="founder-info">
+                        <h3 class="founder-name">Code Ace (Htet Nyan Soe)</h3>
+                        <span class="founder-role">Co-Founder & Editor</span>
+                        <p class="founder-bio">Full-stack architect specializing in high-performance web applications. Expert in React, Three.js, and modern development ecosystems.Alos a professional frontend and backend Developer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="founder-card" data-founder="3">
+                <div class="founder-card-inner">
+                    <div class="founder-image-wrapper">
+                        <div class="founder-image-placeholder"><img src="images/founder3.jpg" alt="Sofia Laurent portrait" class="founder-img"/></div>
+                        <div class="founder-social">
+                            <a href="#" aria-label="LinkedIn" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                            <a href="#" aria-label="Dribbble" class="social-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4.006-.816zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.37 1.35-4.133 3.632-4.677 6.176zm8.125-5.114c.24.37 2.04 2.89 3.72 5.95 3.544-1.33 5.046-3.344 5.21-3.568-1.073-1.58-2.65-2.846-4.556-3.54l.242.193c.54.398 1.316.97 1.916 1.698.08.122.14.233.18.322-1.497.774-3.21 1.193-5.136 1.32.21.46.425.93.622 1.408l.218-.028zm10.424-1.94c-.178.238-1.82 2.39-5.504 3.9.234.488.474.984.705 1.48.042.09.088.18.13.27 3.12-.494 6.24.09 6.565.163-.025-2.384-1.036-4.552-2.578-6.14l-.104.103z"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="founder-info">
+                        <h3 class="founder-name">Ryker (Soe Htut Win)</h3>
+                        <span class="founder-role">Co-Founder & Content Creator</span>
+                        <p class="founder-bio">A software engineer and a professional freelancer who is also a great content creator. Passionated Full Stack Wb and app developer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section about-section">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-content" data-reveal>
+                <span class="section-tag">About CJR</span>
+                <h2 class="section-title">Building Digital <span class="gradient-text">Success Stories</span></h2>
+                <p class="section-desc">CJR Web Studio is a premium web development agency founded on the belief that a website should be more than just a digital brochure — it should be a growth engine for your business.</p>
+                <p class="section-desc">We combine cutting-edge technology, stunning design, and strategic thinking to deliver websites that not only look incredible but drive real business results.</p>
+                <div class="about-stats">
+                    <div class="about-stat" data-count-item><span class="about-stat-number" id="clients-served" data-target="120">All</span><span class="about-stat-label">Happy Clients</span></div>
+                    <div class="about-stat" data-count-item><span class="about-stat-number" id="projects-completed" data-target="180">53</span><span class="about-stat-label">Projects Completed</span></div>
+                    <div class="about-stat" data-count-item><span class="about-stat-number" id="years-exp" data-target="8">3+</span><span class="about-stat-label">Years Experience</span></div>
+                    <div class="about-stat" data-count-item><span class="about-stat-number" id="countries" data-target="22">100+</span><span class="about-stat-label">Countries Served</span></div>
+                </div>
+            </div>
+            <div class="about-visual" data-reveal>
+                <div class="about-timeline">
+                    <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><span class="timeline-year">2023</span><p>CJR Web Studio Founded</p></div></div>
+                    <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><span class="timeline-year">2024</span><p>50+ Projects Delivered</p></div></div>
+                    <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><span class="timeline-year">2025</span><p>International Expansion</p></div></div>
+                    <div class="timeline-item"><div class="timeline-dot current"></div><div class="timeline-content"><span class="timeline-year">2026+</span><p>Industry Leaders in Web Innovation</p></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section services-section">
+    <div class="container">
+        <div class="section-header" data-reveal>
+            <span class="section-tag">What We Do</span>
+            <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+            <p class="section-desc">Comprehensive web solutions to elevate your digital presence and drive business growth.</p>
+        </div>
+        <div class="services-grid" data-reveal>
+            <div class="service-card"><div class="service-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div><h3 class="service-title">Custom Website Development</h3><p class="service-desc">Bespoke websites tailored to your brand identity and business goals. Built with cutting-edge technology for maximum performance.</p><a href="#contact" class="service-cta">Learn More <span>→</span></a></div>
+            <div class="service-card"><div class="service-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h3 class="service-title">Business Promotion Services</h3><p class="service-desc">Strategic digital promotion packages to boost your online visibility and attract the right audience to your business.</p><a href="#contact" class="service-cta">Learn More <span>→</span></a></div>
+            <div class="service-card"><div class="service-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 12h6"/><path d="M12 9v6"/></svg></div><h3 class="service-title">Landing Page Design</h3><p class="service-desc">High-conversion landing pages designed to capture leads, showcase products, and drive measurable results.</p><a href="#contact" class="service-cta">Learn More <span>→</span></a></div>
+            <div class="service-card"><div class="service-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="21" r="1"/><circle cx="21" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg></div><h3 class="service-title">E-Commerce Development</h3><p class="service-desc">Full-featured online stores with seamless checkout, inventory management, and optimized shopping experiences.</p><a href="#contact" class="service-cta">Learn More <span>→</span></a></div>
+            <div class="service-card"><div class="service-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg></div><h3 class="service-title">Portfolio Websites</h3><p class="service-desc">Stunning portfolio sites that showcase your work beautifully and leave a lasting impression on potential clients.</p><a href="#contact" class="service-cta">Learn More <span>→</span></a></div>
+            <div class="service-card"><div class="service-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><h3 class="service-title">Corporate Websites</h3><p class="service-desc">Professional corporate websites that communicate your brand authority and build trust with stakeholders and clients.</p><a href="#contact" class="service-cta">Learn More <span>→</span></a></div>
+            <div class="service-card"><div class="service-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div><h3 class="service-title">SEO Optimization</h3><p class="service-desc">Comprehensive SEO strategies to improve your search rankings, drive organic traffic, and grow your online presence.</p><a href="#contact" class="service-cta">Learn More <span>→</span></a></div>
+            <div class="service-card"><div class="service-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div><h3 class="service-title">UI/UX Design</h3><p class="service-desc">User-centered design that combines aesthetics with usability to create intuitive, engaging digital experiences.</p><a href="#contact" class="service-cta">Learn More <span>→</span></a></div>
+            <div class="service-card"><div class="service-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h3 class="service-title">Website Maintenance</h3><p class="service-desc">Ongoing maintenance and support to keep your website secure, up-to-date, and performing at its best.</p><a href="#contact" class="service-cta">Learn More <span>→</span></a></div>
+            <div class="service-card"><div class="service-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1010 10"/><path d="M22 12A10 10 0 0012 2"/><path d="M12 22v-6"/><path d="M12 8V2"/><path d="M12 2l4 4-4 4-4-4 4-4z"/></svg></div><h3 class="service-title">Digital Branding</h3><p class="service-desc">Complete branding packages including logo design, brand guidelines, and visual identity systems that make you unforgettable.</p><a href="#contact" class="service-cta">Learn More <span>→</span></a></div>
+        </div>
+    </div>
+</section>
+
+<!-- WHY US -->
+<section id="why-us" class="section why-section">
+    <div class="container">
+        <div class="section-header" data-reveal>
+            <span class="section-tag">Why CJR</span>
+            <h2 class="section-title">Why Choose <span class="gradient-text">CJR Web Studio</span></h2>
+            <p class="section-desc">We don't just build websites — we build partnerships that drive long-term success.</p>
+        </div>
+        <div class="features-grid" data-reveal>
+            <div class="feature-card"><div class="feature-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><h4>Fast Delivery</h4><p>We deliver high-quality projects on time, every time. Our streamlined workflow ensures rapid turnaround without compromising quality.</p></div>
+            <div class="feature-card"><div class="feature-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div><h4>Modern Design</h4><p>Cutting-edge designs that follow the latest trends and best practices. Your website will stand out from the competition.</p></div>
+            <div class="feature-card"><div class="feature-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h4>Business Growth Focus</h4><p>Every website we build is optimized for conversions and designed to help your business grow and reach new heights.</p></div>
+            <div class="feature-card"><div class="feature-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M12 6v12"/><path d="M6 12h12"/></svg></div><h4>Mobile Responsive</h4><p>Flawless performance across all devices. Your website will look and function perfectly on desktop, tablet, and mobile.</p></div>
+            <div class="feature-card"><div class="feature-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div><h4>Secure Development</h4><p>Security-first approach with best practices implemented at every layer. Your data and your customers' data stay protected.</p></div>
+            <div class="feature-card"><div class="feature-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div><h4>SEO Friendly</h4><p>Built-in SEO optimization from the ground up. We ensure your website ranks high on search engines and attracts organic traffic.</p></div>
+            <div class="feature-card"><div class="feature-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h4>Long-Term Support</h4><p>We're with you for the long haul. Our support team ensures your website runs smoothly with ongoing maintenance and updates.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section portfolio-section">
+    <div class="container">
+        <div class="section-header" data-reveal>
+            <span class="section-tag">Our Work</span>
+            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            <p class="section-desc">Explore our portfolio of successful projects that have helped businesses thrive online.</p>
+        </div>
+        <div class="portfolio-filters" data-reveal>
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="website">Websites</button>
+            <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+            <button class="filter-btn" data-filter="landing">Landing Pages</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+        <div class="portfolio-grid" data-reveal>
+            <div class="portfolio-item" data-category="website"><div class="portfolio-card"><div class="portfolio-image"><div class="portfolio-placeholder" style="background: linear-gradient(135deg, #6366f1, #a855f7);"><span class="portfolio-placeholder-text">NovaTech</span></div><div class="portfolio-overlay"><div class="portfolio-overlay-content"><span class="portfolio-category">Website</span><h4>NovaTech Solutions</h4><p>Corporate website with advanced animations</p><a href="#" class="portfolio-link">View Project →</a></div></div></div></div></div>
+            <div class="portfolio-item" data-category="ecommerce"><div class="portfolio-card"><div class="portfolio-image"><div class="portfolio-placeholder" style="background: linear-gradient(135deg, #3b82f6, #6366f1);"><span class="portfolio-placeholder-text">ShopWave</span></div><div class="portfolio-overlay"><div class="portfolio-overlay-content"><span class="portfolio-category">E-Commerce</span><h4>ShopWave Marketplace</h4><p>Full-featured online store with payment integration</p><a href="#" class="portfolio-link">View Project →</a></div></div></div></div></div>
+            <div class="portfolio-item" data-category="landing"><div class="portfolio-card"><div class="portfolio-image"><div class="portfolio-placeholder" style="background: linear-gradient(135deg, #a855f7, #ec4899);"><span class="portfolio-placeholder-text">LaunchPad</span></div><div class="portfolio-overlay"><div class="portfolio-overlay-content"><span class="portfolio-category">Landing Page</span><h4>LaunchPad 2024</h4><p>High-conversion product launch page</p><a href="#" class="portfolio-link">View Project →</a></div></div></div></div></div>
+            <div class="portfolio-item" data-category="branding"><div class="portfolio-card"><div class="portfolio-image"><div class="portfolio-placeholder" style="background: linear-gradient(135deg, #10b981, #6366f1);"><span class="portfolio-placeholder-text">EcoBrand</span></div><div class="portfolio-overlay"><div class="portfolio-overlay-content"><span class="portfolio-category">Branding</span><h4>EcoBrand Identity</h4><p>Complete brand identity and website redesign</p><a href="#" class="portfolio-link">View Project →</a></div></div></div></div></div>
+            <div class="portfolio-item" data-category="website"><div class="portfolio-card"><div class="portfolio-image"><div class="portfolio-placeholder" style="background: linear-gradient(135deg, #f59e0b, #ef4444);"><span class="portfolio-placeholder-text">FinCore</span></div><div class="portfolio-overlay"><div class="portfolio-overlay-content"><span class="portfolio-category">Website</span><h4>FinCore Financial</h4><p>Financial services platform with dashboards</p><a href="#" class="portfolio-link">View Project →</a></div></div></div></div></div>
+            <div class="portfolio-item" data-category="ecommerce"><div class="portfolio-card"><div class="portfolio-image"><div class="portfolio-placeholder" style="background: linear-gradient(135deg, #6366f1, #06b6d4);"><span class="portfolio-placeholder-text">Artisan</span></div><div class="portfolio-overlay"><div class="portfolio-overlay-content"><span class="portfolio-category">E-Commerce</span><h4>Artisan Market</h4><p>Handcrafted goods marketplace</p><a href="#" class="portfolio-link">View Project →</a></div></div></div></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- GROWTH -->
+<section id="growth" class="section growth-section">
+    <div class="container">
+        <div class="section-header" data-reveal>
+            <span class="section-tag">Growth Impact</span>
+            <h2 class="section-title">We Don't Just Build Websites. <span class="gradient-text">We Help Businesses Grow.</span></h2>
+            <p class="section-desc">Our clients see real, measurable results after partnering with CJR Web Studio.</p>
+        </div>
+        <div class="growth-grid" data-reveal>
+            <div class="growth-card"><div class="growth-card-icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h3 class="growth-card-title">Brand Awareness</h3><p>Our websites amplify your brand's reach and recognition in the digital space.</p><div class="growth-bar"><span class="growth-bar-value" data-value="94">0%</span><div class="growth-bar-track"><div class="growth-bar-fill" style="width: 0%"></div></div></div></div>
+            <div class="growth-card"><div class="growth-card-icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div><h3 class="growth-card-title">Lead Generation</h3><p>Strategic CTAs and optimized funnels that convert visitors into customers.</p><div class="growth-bar"><span class="growth-bar-value" data-value="89">0%</span><div class="growth-bar-track"><div class="growth-bar-fill" style="width: 0%"></div></div></div></div>
+            <div class="growth-card"><div class="growth-card-icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div><h3 class="growth-card-title">Online Presence</h3><p>Dominant digital footprint that makes your business discoverable 24/7.</p><div class="growth-bar"><span class="growth-bar-value" data-value="97">0%</span><div class="growth-bar-track"><div class="growth-bar-fill" style="width: 0%"></div></div></div></div>
+            <div class="growth-card"><div class="growth-card-icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4"/><path d="M22 12c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2s10 4.48 10 10z"/></svg></div><h3 class="growth-card-title">Customer Trust</h3><p>Professional design and seamless UX that builds immediate credibility.</p><div class="growth-bar"><span class="growth-bar-value" data-value="92">0%</span><div class="growth-bar-track"><div class="growth-bar-fill" style="width: 0%"></div></div></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section testimonials-section">
+    <div class="container">
+        <div class="section-header" data-reveal>
+            <span class="section-tag">Testimonials</span>
+            <h2 class="section-title">What Our <span class="gradient-text">Clients Say</span></h2>
+            <p class="section-desc">Hear from businesses we've helped transform through exceptional web development.</p>
+        </div>
+        <div class="testimonials-carousel" data-reveal>
+            <div class="testimonials-track" id="testimonials-track">
+                <div class="testimonial-card"><div class="testimonial-stars">★★★★★</div><p class="testimonial-text">"CJR Web Studio completely transformed our online presence. Our traffic increased by 300% and our conversion rate doubled. The team's attention to detail is unmatched."</p><div class="testimonial-author"><div class="testimonial-avatar" style="background: linear-gradient(135deg, #6366f1, #a855f7);"><span>SK</span></div><div><h4>Sarah Kim</h4><span>CEO, NovaTech Solutions</span></div></div></div>
+                <div class="testimonial-card"><div class="testimonial-stars">★★★★★</div><p class="testimonial-text">"Working with CJR was the best investment we made for our business. They didn't just build a website — they built a growth engine. Our sales have never been better."</p><div class="testimonial-author"><div class="testimonial-avatar" style="background: linear-gradient(135deg, #3b82f6, #6366f1);"><span>MR</span></div><div><h4>Michael Reynolds</h4><span>Founder, ShopWave</span></div></div></div>
+                <div class="testimonial-card"><div class="testimonial-stars">★★★★★</div><p class="testimonial-text">"The team at CJR delivered our e-commerce platform ahead of schedule and exceeded every expectation. Their technical expertise and creative vision are extraordinary."</p><div class="testimonial-author"><div class="testimonial-avatar" style="background: linear-gradient(135deg, #a855f7, #ec4899);"><span>EL</span></div><div><h4>Emily Laurent</h4><span>Director, Artisan Market</span></div></div></div>
+                <div class="testimonial-card"><div class="testimonial-stars">★★★★★</div><p class="testimonial-text">"CJR Web Studio understood our vision immediately and brought it to life in ways we never imagined. Our clients constantly compliment our website."</p><div class="testimonial-author"><div class="testimonial-avatar" style="background: linear-gradient(135deg, #10b981, #6366f1);"><span>JD</span></div><div><h4>James Donovan</h4><span>COO, FinCore Financial</span></div></div></div>
+                <div class="testimonial-card"><div class="testimonial-stars">★★★★★</div><p class="testimonial-text">"From the initial consultation to the final delivery, CJR was professional, responsive, and incredibly talented. Our new website has completely elevated our brand."</p><div class="testimonial-author"><div class="testimonial-avatar" style="background: linear-gradient(135deg, #f59e0b, #ef4444);"><span>AW</span></div><div><h4>Alicia Wu</h4><span>Marketing Director, LaunchPad</span></div></div></div>
+                <div class="testimonial-card"><div class="testimonial-stars">★★★★★</div><p class="testimonial-text">"Their SEO optimization and modern design approach gave us a competitive edge. We've seen a 150% increase in organic traffic within 3 months."</p><div class="testimonial-author"><div class="testimonial-avatar" style="background: linear-gradient(135deg, #6366f1, #06b6d4);"><span>TR</span></div><div><h4>Thomas Reed</h4><span>CEO, EcoBrand</span></div></div></div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-btn" id="testimonial-prev" aria-label="Previous"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+                <div class="testimonial-dots" id="testimonial-dots"></div>
+                <button class="testimonial-btn" id="testimonial-next" aria-label="Next"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section faq-section">
+    <div class="container">
+        <div class="section-header" data-reveal>
+            <span class="section-tag">FAQ</span>
+            <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            <p class="section-desc">Everything you need to know about working with CJR Web Studio.</p>
+        </div>
+        <div class="faq-list" data-reveal>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>How much does a website cost?</span><svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-answer"><p>Our pricing varies based on project complexity, features, and timeline. A basic website starts at $1,500, while more complex projects range from $500 to $15,000+.</p></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>How long does it take to build a website?</span><svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-answer"><p>Typical project timelines range from 2-6 weeks depending on scope. A standard website takes 2-3 weeks, while more complex projects may require 4-8 weeks.</p></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Do you offer website maintenance?</span><svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-answer"><p>Yes! We offer comprehensive maintenance packages including security updates, content updates, performance optimization, backups, and 24/7 monitoring. Plans start at $99/month.</p></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Do you provide hosting services?</span><svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-answer"><p>We partner with premium hosting providers to offer reliable, high-performance hosting solutions. Hosting is included in our maintenance packages or available separately starting at $29/month.</p></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Will my website be SEO optimized?</span><svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-answer"><p>Absolutely. SEO optimization is built into every website we create from the ground up. This includes proper HTML structure, meta tags, schema markup, optimized images, and fast loading speeds.</p></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>What is your design process?</span><svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button><div class="faq-answer"><p>Our process begins with discovery — understanding your brand, goals, and target audience. We then create wireframes and design mockups for your approval. Once approved, we move to development with regular progress updates.</p></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+    <div class="container">
+        <div class="section-header" data-reveal>
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="section-title">Let's Build Something <span class="gradient-text">Amazing</span></h2>
+            <p class="section-desc">Ready to transform your digital presence? Let's discuss your project and create something extraordinary together.</p>
+        </div>
+        <div class="contact-grid" data-reveal>
+            <div class="contact-info">
+                <div class="contact-info-item"><div class="contact-info-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><h4>Email Us</h4><a href="mailto:hello@cjrwebstudio.com">codewithme26667.com</a></div></div>
+                <div class="contact-info-item"><div class="contact-info-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></div><div><h4>Call Us</h4><a href="tel:+1234567890">+95 9687 846 491</a></div></div>
+                <div class="contact-info-item"><div class="contact-info-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><h4>Location</h4><p>Yangon, Myanmar</p></div></div>
+                <div class="contact-social">
+                    <a href="#" aria-label="Facebook" class="contact-social-link"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669"/></svg></a>
+                    <a href="#" aria-label="Twitter" class="contact-social-link"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231z"/></svg></a>
+                    <a href="#" aria-label="Instagram" class="contact-social-link"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849"/></svg></a>
+                    <a href="#" aria-label="LinkedIn" class="contact-social-link"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037"/></svg></a>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" name="name" placeholder="John Doe" required><span class="form-error"></span></div>
+                        <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="john@example.com" required><span class="form-error"></span></div>
+                    </div>
+                    <div class="form-group"><label for="service">Service Interested In</label><select id="service" name="service"><option value="">Select a service</option><option value="web-dev">Custom Website Development</option><option value="ecommerce">E-Commerce Development</option><option value="seo">SEO Optimization</option><option value="design">UI/UX Design</option><option value="branding">Digital Branding</option><option value="other">Other</option></select></div>
+                    <div class="form-group"><label for="budget">Budget Range</label><select id="budget" name="budget"><option value="">Select your budget</option><option value="1k-3k">$1,000 - $3,000</option><option value="3k-8k">$3,000 - $8,000</option><option value="8k-15k">$8,000 - $15,000</option><option value="15k+">$15,000+</option></select></div>
+                    <div class="form-group"><label for="message">Project Details</label><textarea id="message" name="message" rows="5" placeholder="Tell us about your project, goals, and timeline..." required></textarea><span class="form-error"></span></div>
+                    <button type="submit" class="btn btn-glow btn-lg btn-block" id="form-submit"><span>Send Message</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4.1665 10H15.8332M15.8332 10L10.8332 5M15.8332 10L10.8332 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                    <div class="form-success" id="form-success"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><h4>Message Sent Successfully!</h4><p>We'll get back to you within 24 hours.</p></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#hero" class="logo"><span class="logo-text">CJR<span class="logo-accent">.</span></span></a>
+                <p class="footer-desc">We build premium websites that help businesses grow, scale, and dominate their markets. Award-winning design, cutting-edge technology, and strategic thinking — all in one place.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook" class="footer-social-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669"/></svg></a>
+                    <a href="#" aria-label="Twitter" class="footer-social-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231z"/></svg></a>
+                    <a href="#" aria-label="Instagram" class="footer-social-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919"/></svg></a>
+                    <a href="#" aria-label="LinkedIn" class="footer-social-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037"/></svg></a>
+                </div>
+            </div>
+            <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="#about">About Us</a></li><li><a href="#services">Services</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#testimonials">Testimonials</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li></ul></div>
+            <div class="footer-links"><h4>Services</h4><ul><li><a href="#services">Web Development</a></li><li><a href="#services">E-Commerce</a></li><li><a href="#services">SEO Optimization</a></li><li><a href="#services">UI/UX Design</a></li><li><a href="#services">Digital Branding</a></li></ul></div>
+            <div class="footer-newsletter"><h4>Stay Updated</h4><p>Subscribe to our newsletter for the latest insights on web design, digital marketing, and business growth.</p><form class="newsletter-form" id="newsletter-form"><input type="email" placeholder="Enter your email" required aria-label="Email for newsletter"><button type="submit" aria-label="Subscribe"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4.1665 10H15.8332M15.8332 10L10.8332 5M15.8332 10L10.8332 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></form></div>
+        </div>
+        <div class="footer-bottom"><p>  2026 CJR Web Studio. All rights reserved. </p><div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div></div>
+    </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button id="back-to-top" class="back-to-top" aria-label="Back to top"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
+
+<!-- SCRIPTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
